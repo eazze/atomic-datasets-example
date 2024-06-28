@@ -7,19 +7,17 @@ Formattierung:
 {
     "input": "Wäsche waschen und als Haushalt tracken",
     "output": {
-	    "item": [
+	    "item": 
 		{
 	            "title": "Wäsche waschen",
 		    "description": "",
 	            "groupId": "group1"
-		}
-	    ],
-	    "groups": [
+		},
+	    "groups": 
 		{
 	            "id": "group1",
 		    "title": "Haushalt",
 		}
-	    ],
 	}
 }
 ```
@@ -33,13 +31,12 @@ Kategorisierung ist von TimeModifier abhängig.
 #### Output
 ```json
 {	
-    "item": [
+    "item":
 	{
             "title": "Wäsche waschen",
 	    "description": "",
             "groupId": "group1"
 	}
-    ],
 }
 ```
 ### Gruppiertes, tägliches Item
@@ -48,19 +45,17 @@ Kategorisierung ist von TimeModifier abhängig.
 #### Output
 ```json
 {	
-    "item": [
+    "item":
 	{
             "title": "Wäsche waschen",
 	    "description": "",
             "groupId": "group1"
-	}
-    ],
-    "groups": [
+	},
+    "groups":
 	{
             "id": "group1",
 	    "title": "Haushalt",
 	}
-    ],
 }
 ```
 
@@ -71,12 +66,11 @@ Kategorisierung ist von TimeModifier abhängig.
 #### Output
 ```json
 {
-    "item": [
+    "item":
 	{
             "title": "Antrag abgeben",
 	    "description": "Antrag für eine Geburtsurkunde abgeben",
 	}
-    ],
 }	
 ```
 
@@ -87,18 +81,16 @@ Kategorisierung ist von TimeModifier abhängig.
 #### Output
 ```json
 {
-    "item": [
+    "item":
 	{
 	    "title": "Fahrradtour",
 	    "description": "Fahrradtour machen",
 	    "groupId": "group1"
 	}
-    ],
-    "groups": [
+    "groups":
         {
             "id": "group1",
             "title": "Sport",
         }
-    ],
 }	
 ```

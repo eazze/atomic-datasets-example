@@ -12,8 +12,8 @@ Kategorisierung ist von TimeModifier abhängig.
 {	
     "item": [
 	{
-            "id": "daily1",
             "title": "Wäsche waschen",
+	    "description": "",
             "groupId": "group1"
 	}
     ],
@@ -35,7 +35,6 @@ Kategorisierung ist von TimeModifier abhängig.
 {
     "item": [
 	{
-            "id": "todo1",
             "title": "Antrag abgeben",
 	    "description": "Antrag für eine Geburtsurkunde abgeben",
 	}
@@ -52,7 +51,6 @@ Kategorisierung ist von TimeModifier abhängig.
 {
     "item": [
 	{
-	    "id": "todo1",
 	    "title": "Fahrradtour",
 	    "description": "Fahrradtour machen",
 	    "groupId": "group1"

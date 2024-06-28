@@ -21,7 +21,7 @@ Kategorisierung ist von TimeModifier abhängig.
     "todoItems": [
 	{
 	    "id": "todo1",
-	    "title": "Einrichten des Projekts in        Docker",
+	    "title": "Einrichten des Projekts in Docker",
 	    "description": "Erzeugen der Entwicklungsumgebung und Konfiguration der Services",
 	    "todoListCollectionId": "todoList1"
 	}

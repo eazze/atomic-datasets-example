@@ -16,6 +16,7 @@ Kategorisierung ist von TimeModifier abhängig
 ## Example Data Output
 ### Todo
 ```json
+{
     "todoItems": [
         {
             "id": "todo1",
@@ -30,9 +31,11 @@ Kategorisierung ist von TimeModifier abhängig
             "title": "Coding-Projekt"
         }
     ],
+}    
 ```
 ### Gruppierte Todos
 ```json
+{
     "todoItems": [
         {
             "id": "todo1",
@@ -53,10 +56,11 @@ Kategorisierung ist von TimeModifier abhängig
 			"title": "Coden",
 		}
 	],
-
+}
 ```
 ### ScheduleDailyItem
 ```json
+{	
 	"dailys": [
         {
             "id": "daily1",
@@ -89,10 +93,12 @@ Kategorisierung ist von TimeModifier abhängig
             "title": "Testplan"
         }
     ]
+}    
 ```
 
 ### ScheduleTodoItems
 ```json
+{
 	"todoItems": [
 		{
 			"id": "todo1",
@@ -108,10 +114,12 @@ Kategorisierung ist von TimeModifier abhängig
 			"title": "Neue Aufgabenliste"
 		}
 	],
+}	
 ```
 
 ### Gruppierte ScheduleTodoItems
 ```json
+{
 	"todoItems": [
 		{
 			"id": "todo1",
@@ -133,4 +141,5 @@ Kategorisierung ist von TimeModifier abhängig
 			"title": "Neue Aufgabenliste"
 		}
 	],
+}	
 ```

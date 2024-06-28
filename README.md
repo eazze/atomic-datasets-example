@@ -17,57 +17,57 @@ Kategorisierung ist von TimeModifier abhängig
 ### Todo
 ```json
 {
-    "todoItems": [
-        {
-            "id": "todo1",
-            "title": "Einrichten des Projekts in        Docker",
-            "description": "Erzeugen der Entwicklungsumgebung und Konfiguration der Services",
-            "todoListCollectionId": "todoList1"
-        }
-    ],
-    "todoListCollection": [
-        {
-            "id": "todoList1",
-            "title": "Coding-Projekt"
-        }
-    ],
+	    "todoItems": [
+	        {
+	            "id": "todo1",
+	            "title": "Einrichten des Projekts in        Docker",
+	            "description": "Erzeugen der Entwicklungsumgebung und Konfiguration der Services",
+	            "todoListCollectionId": "todoList1"
+	        }
+	    ],
+	    "todoListCollection": [
+	        {
+	            "id": "todoList1",
+	            "title": "Coding-Projekt"
+	        }
+	    ],
 }    
 ```
 ### Gruppierte Todos
 ```json
-{
-    "todoItems": [
-        {
-            "id": "todo1",
-            "title": "Einrichten des Projekts in Docker",
-            "description": "Erzeugen der Entwicklungsumgebung               und Konfiguration der Services",
-            "todoListCollectionId": "todoList1"
-        }
-    ],
-    "todoListCollection": [
-        {
-            "id": "todoList1",
-            "title": "Coding-Projekt"
-        }
-    ],
-    "groups": [
+	{
+	    "todoItems": [
+	        {
+	            "id": "todo1",
+	            "title": "Einrichten des Projekts in Docker",
+	            "description": "Erzeugen der Entwicklungsumgebung und Konfiguration der Services",
+	            "todoListCollectionId": "todoList1"
+	        }
+	    ],
+	    "todoListCollection": [
+	        {
+	            "id": "todoList1",
+	            "title": "Coding-Projekt"
+	        }
+	    ],
+	    "groups": [
 		{
 			"id": "group1",
 			"title": "Coden",
 		}
-	],
-}
+		],
+	}
 ```
 ### ScheduleDailyItem
 ```json
 {	
 	"dailys": [
-        {
-            "id": "daily1",
-            "title": "Mathematik",
-            "groupId": "group1"
-        }
-    ],
+	        {
+	            "id": "daily1",
+	            "title": "Mathematik",
+	            "groupId": "group1"
+	        }
+    	],
 	"groups": [
 		{
 			"id": "group1",
@@ -75,25 +75,25 @@ Kategorisierung ist von TimeModifier abhängig
 		}
 	],
 	"scheduleItems": [
-        {
-            "id": "schedule1",
-            "day": "Monday",
-            "startTime": "08:00",
-            "endTime": "09:00",
-            "duration": 60,
-            "orderingInDay": 0,
-            "scheduleId": "group1",
-            "dailyItemId": "daily1",
-            "todoItemId": null
-        }
-    ],
-    "scheduleCollection": [
-        {
-            "id": "schedule1",
-            "title": "Testplan"
-        }
-    ]
-}    
+	        {
+	            "id": "schedule1",
+	            "day": "Monday",
+	            "startTime": "08:00",
+	            "endTime": "09:00",
+	            "duration": 60,
+	            "orderingInDay": 0,
+	            "scheduleId": "group1",
+	            "dailyItemId": "daily1",
+	            "todoItemId": null
+	        }
+	    ],
+	    "scheduleCollection": [
+	        {
+	            "id": "schedule1",
+	            "title": "Testplan"
+	        }
+	    ]
+	}    
 ```
 
 ### ScheduleTodoItems
@@ -130,11 +130,11 @@ Kategorisierung ist von TimeModifier abhängig
 		}
 	],
 	"groups": [
-        {
-            "id": "group1",
-            "title": "Naturwissenschaften",
-        }
-    ],
+	        {
+	            "id": "group1",
+	            "title": "Naturwissenschaften",
+	        }
+    	],
 	"todoListCollection": [
 		{
 			"id": "todoList1",

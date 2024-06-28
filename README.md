@@ -7,7 +7,6 @@ Formattierung:
 {
     "input": "Wäsche waschen und als Haushalt tracken",
     "output": {
-        {	
 	    "item": [
 		{
 	            "title": "Wäsche waschen",

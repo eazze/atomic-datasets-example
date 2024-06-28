@@ -10,7 +10,7 @@ Kategorisierung ist von TimeModifier abhängig.
 #### Output
 ```json
 {	
-    "dailys": [
+    "item": [
 	{
             "id": "daily1",
             "title": "Wäsche waschen",
@@ -33,22 +33,14 @@ Kategorisierung ist von TimeModifier abhängig.
 #### Output
 ```json
 {
-    "todoItems": [
+    "item": [
 	{
             "id": "todo1",
             "title": "Antrag abgeben",
 	    "description": "Antrag für eine Geburtsurkunde abgeben",
-            "scheduleable": true,
-	    "groupId": "group1",
-	    "todoListCollectionId": "todoList1"
+	    "groupId": "group1"
 	}
     ],
-    "todoListCollection": [
-	{
-	    "id": "todoList1",
-	    "title": "Neue Aufgabenliste"
-	}
-    ]
 }	
 ```
 
@@ -59,14 +51,12 @@ Kategorisierung ist von TimeModifier abhängig.
 #### Output
 ```json
 {
-    "todoItems": [
+    "item": [
 	{
 	    "id": "todo1",
 	    "title": "Fahrradtour",
 	    "description": "Fahrradtour machen",
-            "scheduleable": true,
-	    "groupId": "group1",
-	    "todoListCollectionId": "todoList1"
+	    "groupId": "group1"
 	}
     ],
     "groups": [
@@ -74,12 +64,6 @@ Kategorisierung ist von TimeModifier abhängig.
             "id": "group1",
             "title": "Sport",
         }
-    ],
-    "todoListCollection": [
-	{
-	    "id": "todoList1",
-	    "title": "Unternehmungen"
-	}
     ],
 }	
 ```

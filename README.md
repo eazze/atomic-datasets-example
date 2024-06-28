@@ -27,7 +27,9 @@ Kategorisierung ist von TimeModifier abhängig.
 ## Beispiel Eingabe-Objekte
 ### Item
 #### Input
+```
 "Auto waschen"
+```
 #### Output
 ```json
 {	
@@ -40,7 +42,9 @@ Kategorisierung ist von TimeModifier abhängig.
 ```
 ### Gruppiertes Item
 #### Input
+```
 "Wäsche waschen und als Haushalt tracken"
+```
 #### Output
 ```json
 {	

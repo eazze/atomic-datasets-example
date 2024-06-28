@@ -25,7 +25,7 @@ Formattierung:
 Kategorisierung ist von TimeModifier abhängig.
 
 ## Beispiel Eingabe-Objekte
-### Tägliches Item
+### Item
 #### Input
 "Auto waschen"
 #### Output
@@ -38,7 +38,7 @@ Kategorisierung ist von TimeModifier abhängig.
 	}
 }
 ```
-### Gruppiertes, tägliches Item
+### Gruppiertes Item
 #### Input
 "Wäsche waschen und als Haushalt tracken"
 #### Output
@@ -57,39 +57,4 @@ Kategorisierung ist von TimeModifier abhängig.
 	}
 }
 ```
-
-
-### Todo-Item
-#### Input
-"einen Antrag für eine Geburtsurkunde abgeben"
-#### Output
-```json
-{
-    "item":
-	{
-            "title": "Antrag abgeben",
-	    "description": "Antrag für eine Geburtsurkunde abgeben",
-	}
-}	
-```
-
-
-### Gruppiertes Todo-Item
-#### Input
-"eine Fahrradtour machen und sie als Sport tracken"
-#### Output
-```json
-{
-    "item":
-	{
-	    "title": "Fahrradtour",
-	    "description": "Fahrradtour machen",
-	    "groupId": "group1"
-	}
-    "groups":
-        {
-            "id": "group1",
-            "title": "Sport",
-        }
-}	
 ```

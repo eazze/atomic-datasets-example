@@ -1,7 +1,8 @@
 ## Example Data Input
 *Generelle Formulierung:*
 *"Ich möchte [Objekt].."*
-Kategorisierung ist von TimeModifier abhängig
+
+Kategorisierung ist von TimeModifier abhängig.
 ## Example Input Objekte
 ### Todo
 "ein Projekt in Docker einrichten für mein Coding-Projekt"

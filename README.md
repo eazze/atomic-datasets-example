@@ -6,16 +6,7 @@ Kategorisierung ist von TimeModifier abhängig.
 ## Example Input Objekte
 ### Todo
 "ein Projekt in Docker einrichten für mein Coding-Projekt"
-### Gruppierte Todos
-"ein Projekt in Docker einrichten für mein Coding Projekt und der Gruppe Coden zuweisen"
-### ScheduleDailyItem
-"Wäsche waschen und als Haushalt tracken"
-### ScheduleTodoItems
-"einen Antrag abgeben"
-### Gruppierte ScheduleTodoItems
-"eine Fahrradtour machen und sie als Sport tracken"
-## Example Data Output
-### Todo
+
 ```json
 {
     "todoItems": [
@@ -34,7 +25,11 @@ Kategorisierung ist von TimeModifier abhängig.
     ],
 }
 ```
+
+
 ### Gruppierte Todos
+"ein Projekt in Docker einrichten für mein Coding Projekt und der Gruppe Coden zuweisen"
+
 ```json
 {
     "todoItems": [
@@ -59,52 +54,40 @@ Kategorisierung ist von TimeModifier abhängig.
     ]
 }
 ```
+
+
 ### ScheduleDailyItem
+"Wäsche waschen und als Haushalt tracken"
+
 ```json
 {	
     "dailys": [
 	{
             "id": "daily1",
-            "title": "Mathematik",
+            "title": "Wäsche waschen",
             "groupId": "group1"
 	}
     ],
     "groups": [
 	{
             "id": "group1",
-	    "title": "Naturwissenschaften",
+	    "title": "Haushalt",
 	}
     ],
-    "scheduleItems": [
-	{
-	    "id": "schedule1",
-	    "day": "Monday",
-	    "startTime": "08:00",
-	    "endTime": "09:00",
-	    "duration": 60,
-	    "orderingInDay": 0,
-	    "scheduleId": "group1",
-	    "dailyItemId": "daily1",
-	    "todoItemId": null
-	}
-    ],
-    "scheduleCollection": [
-	{
-	    "id": "schedule1",
-	    "title": "Testplan"
-	}
-    ]
 }
 ```
 
+
 ### ScheduleTodoItems
+"einen Antrag für eine Geburtsurkunde abgeben"
+
 ```json
 {
 	"todoItems": [
 	{
             "id": "todo1",
-            "title": "Hausaufgaben",
-	    "description": "",
+            "title": "Antrag abgeben",
+	    "description": "Antrag für eine Geburtsurkunde abgeben",
 	    "groupId": "group1",
 	    "todoListCollectionId": "todoList1"
 	}
@@ -118,14 +101,17 @@ Kategorisierung ist von TimeModifier abhängig.
 }	
 ```
 
+
 ### Gruppierte ScheduleTodoItems
+"eine Fahrradtour machen und sie als Sport tracken"
+
 ```json
 {
     "todoItems": [
 	{
 	    "id": "todo1",
-	    "title": "Hausaufgaben",
-	    "description": "Mathehausaufgaben erledigen",
+	    "title": "Fahrradtour",
+	    "description": "Fahrradtour machen",
 	    "groupId": "group1",
 	    "todoListCollectionId": "todoList1"
 	}
@@ -133,13 +119,13 @@ Kategorisierung ist von TimeModifier abhängig.
     "groups": [
         {
             "id": "group1",
-            "title": "Naturwissenschaften",
+            "title": "Sport",
         }
     ],
     "todoListCollection": [
 	{
 	    "id": "todoList1",
-	    "title": "Neue Aufgabenliste"
+	    "title": "Unternehmungen"
 	}
     ],
 }	

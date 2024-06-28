@@ -1,7 +1,6 @@
 ## Example Data Input
 *Generelle Formulierung:*
 *"Ich möchte [Objekt].."*
-
 Kategorisierung ist von TimeModifier abhängig
 ## Example Input Objekte
 ### Todo

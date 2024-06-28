@@ -4,60 +4,6 @@
 
 Kategorisierung ist von TimeModifier abhängig.
 ## Example Input Objekte
-### Todo
-#### Input
-"ein Projekt in Docker einrichten für mein Coding-Projekt"
-#### Output
-```json
-{
-    "todoItems": [
-	{
-	    "id": "todo1",
-	    "title": "Einrichten des Projekts in Docker",
-	    "description": "Erzeugen der Entwicklungsumgebung und Konfiguration der Services",
-	    "todoListCollectionId": "todoList1"
-	}
-    ],
-    "todoListCollection": [
-	{
-	    "id": "todoList1",
-	    "title": "Coding-Projekt"
-	}
-    ],
-}
-```
-
-
-### Gruppierte Todos
-#### Input
-"ein Projekt in Docker einrichten für mein Coding Projekt und der Gruppe Coden zuweisen"
-#### Output
-```json
-{
-    "todoItems": [
-	{
-	    "id": "todo1",
-	    "title": "Einrichten des Projekts in Docker",
-	    "description": "Erzeugen der Entwicklungsumgebung und Konfiguration der Services",
-	    "todoListCollectionId": "todoList1"
-	}
-    ],
-    "todoListCollection": [
-	{
-	    "id": "todoList1",
-	    "title": "Coding-Projekt"
-	}
-    ],
-    "groups": [
-	{
-	    "id": "group1",
-	    "title": "Coden",
-	}
-    ]
-}
-```
-
-
 ### ScheduleDailyItem
 #### Input
 "Wäsche waschen und als Haushalt tracken"
@@ -86,11 +32,12 @@ Kategorisierung ist von TimeModifier abhängig.
 
 ```json
 {
-	"todoItems": [
+    "todoItems": [
 	{
             "id": "todo1",
             "title": "Antrag abgeben",
 	    "description": "Antrag für eine Geburtsurkunde abgeben",
+            "scheduleable": true,
 	    "groupId": "group1",
 	    "todoListCollectionId": "todoList1"
 	}
@@ -116,6 +63,7 @@ Kategorisierung ist von TimeModifier abhängig.
 	    "id": "todo1",
 	    "title": "Fahrradtour",
 	    "description": "Fahrradtour machen",
+            "scheduleable": true,
 	    "groupId": "group1",
 	    "todoListCollectionId": "todoList1"
 	}

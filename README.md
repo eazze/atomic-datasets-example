@@ -57,4 +57,3 @@ Kategorisierung ist von TimeModifier abhängig.
 	}
 }
 ```
-```

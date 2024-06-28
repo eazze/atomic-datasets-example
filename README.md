@@ -38,7 +38,6 @@ Kategorisierung ist von TimeModifier abhängig.
             "id": "todo1",
             "title": "Antrag abgeben",
 	    "description": "Antrag für eine Geburtsurkunde abgeben",
-	    "groupId": "group1"
 	}
     ],
 }	

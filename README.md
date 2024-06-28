@@ -13,7 +13,7 @@ Formattierung:
 		    "description": "",
 	            "groupId": "group1"
 		},
-	    "groups": 
+	    "group": 
 		{
 	            "id": "group1",
 		    "title": "Haushalt",
@@ -27,15 +27,14 @@ Kategorisierung ist von TimeModifier abhängig.
 ## Beispiel Eingabe-Objekte
 ### Tägliches Item
 #### Input
-"Wäsche waschen und als Haushalt tracken"
+"Auto waschen"
 #### Output
 ```json
 {	
     "item":
 	{
-            "title": "Wäsche waschen",
+            "title": "Auto waschen",
 	    "description": "",
-            "groupId": "group1"
 	}
 }
 ```

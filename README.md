@@ -63,9 +63,9 @@ Kategorisierung ist von TimeModifier abhängig
 {	
     "dailys": [
 	{
-	    "id": "daily1",
-	    "title": "Mathematik",
-	    "groupId": "group1"
+            "id": "daily1",
+            "title": "Mathematik",
+            "groupId": "group1"
 	}
     ],
     "groups": [
@@ -93,7 +93,7 @@ Kategorisierung ist von TimeModifier abhängig
 	    "title": "Testplan"
 	}
     ]
-}    
+}
 ```
 
 ### ScheduleTodoItems
@@ -130,10 +130,10 @@ Kategorisierung ist von TimeModifier abhängig
 	}
     ],
     "groups": [
-        {
-            "id": "group1",
-            "title": "Naturwissenschaften",
-        }
+        {
+            "id": "group1",
+            "title": "Naturwissenschaften",
+        }
     ],
     "todoListCollection": [
 	{

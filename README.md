@@ -5,8 +5,9 @@
 Kategorisierung ist von TimeModifier abhängig.
 ## Example Input Objekte
 ### Todo
+#### Input
 "ein Projekt in Docker einrichten für mein Coding-Projekt"
-
+#### Output
 ```json
 {
     "todoItems": [
@@ -28,8 +29,9 @@ Kategorisierung ist von TimeModifier abhängig.
 
 
 ### Gruppierte Todos
+#### Input
 "ein Projekt in Docker einrichten für mein Coding Projekt und der Gruppe Coden zuweisen"
-
+#### Output
 ```json
 {
     "todoItems": [
@@ -57,8 +59,9 @@ Kategorisierung ist von TimeModifier abhängig.
 
 
 ### ScheduleDailyItem
+#### Input
 "Wäsche waschen und als Haushalt tracken"
-
+#### Output
 ```json
 {	
     "dailys": [
@@ -103,8 +106,9 @@ Kategorisierung ist von TimeModifier abhängig.
 
 
 ### Gruppierte ScheduleTodoItems
+#### Input
 "eine Fahrradtour machen und sie als Sport tracken"
-
+#### Output
 ```json
 {
     "todoItems": [

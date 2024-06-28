@@ -1,10 +1,49 @@
-## Example Data Input
+## Beispiel Daten-Eingabe
 *Generelle Formulierung:*
 *"Ich möchte [Objekt].."*
 
+Formattierung:
+```json
+{
+    "input": "Wäsche waschen und als Haushalt tracken",
+    "output": {
+        {	
+	    "item": [
+		{
+	            "title": "Wäsche waschen",
+		    "description": "",
+	            "groupId": "group1"
+		}
+	    ],
+	    "groups": [
+		{
+	            "id": "group1",
+		    "title": "Haushalt",
+		}
+	    ],
+	}
+}
+```
+
 Kategorisierung ist von TimeModifier abhängig.
-## Example Input Objekte
-### ScheduleDailyItem
+
+## Beispiel Eingabe-Objekte
+### Tägliches Item
+#### Input
+"Wäsche waschen und als Haushalt tracken"
+#### Output
+```json
+{	
+    "item": [
+	{
+            "title": "Wäsche waschen",
+	    "description": "",
+            "groupId": "group1"
+	}
+    ],
+}
+```
+### Gruppiertes, tägliches Item
 #### Input
 "Wäsche waschen und als Haushalt tracken"
 #### Output
@@ -27,7 +66,7 @@ Kategorisierung ist von TimeModifier abhängig.
 ```
 
 
-### ScheduleTodoItems
+### Todo-Item
 #### Input
 "einen Antrag für eine Geburtsurkunde abgeben"
 #### Output
@@ -43,7 +82,7 @@ Kategorisierung ist von TimeModifier abhängig.
 ```
 
 
-### Gruppierte ScheduleTodoItems
+### Gruppiertes Todo-Item
 #### Input
 "eine Fahrradtour machen und sie als Sport tracken"
 #### Output
